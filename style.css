@@ -130,20 +130,20 @@ the result of the addition of two or more numeric values. */
 .banner .contentBx h4
 {
     font-size: 1.5em;
-    color: #333;
+    color: black;
     font-weight: 300;
 }
 .banner .contentBx h4 span
 {
     
-    color: #00bcd4;
+    color: #000080;
     font-size: 1.5em;
     font-weight: 700;
 }
 .banner .contentBx h2
 {
     font-size: 3em;
-    color: orangered;
+    color: #FD5956;
     line-height: 1em;
 }
 p{
@@ -153,7 +153,7 @@ p{
 }
 .btn,.input
 {
-    background: #00bcd4;
+    background: #000080;
     color: white;
     padding: 10px 30px;
     display: inline-block;
@@ -238,7 +238,7 @@ p{
 .title h2
 {
     position: relative;
-    color: #00bcd4;
+    color: #000080;
     font-size: 1.8em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -263,7 +263,7 @@ p{
 .title.white h2,
 .title.white p,.title.white h3
 {
-    color: #00bcd4;
+    color: #000080;
 }
 .title.title.white h2::before
 {
@@ -271,7 +271,7 @@ p{
 }
 .about
 {
-    background: #000 ;
+    background: #FD5956 ;
 }
 .about .content
 {
@@ -401,9 +401,15 @@ p{
     letter-spacing: 1px;
     font-size: 1em;
 }
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
 .contact
 {
-    background: black;
+    background: #FD5956;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +417,7 @@ p{
 }
 .contact .title h2
 {
-    color: #00bcd4;
+    color: #000080;
 }
 .contact .contactform
 {
