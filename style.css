@@ -288,6 +288,10 @@ p{
 {
     color: #fff;
 }
+.about .content .textBx h2
+{
+    color: #000080;
+}
 .about .content .imgBx
 {
     margin-left: 40px;
@@ -484,7 +488,7 @@ p{
     display: none;
 }
 .card{
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
